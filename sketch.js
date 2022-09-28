@@ -1,5 +1,5 @@
 const width = 1900;
-const heigth = 1060;
+const height = 1060;
 const iterCount = 100;
 
 const radius = 500;
@@ -8,7 +8,7 @@ let anchors = [];
 let currentPoint;
 
 function setup() {
-    createCanvas(width, heigth);
+    createCanvas(width, height);
 
     translate(width / 2, height / 2);
     // circle(0, 0, radius);
